@@ -22,6 +22,18 @@ body {
 #carefor .imgbox {
   width: 500px;
 }
+@media (max-width: 768px) {
+  #carefor .row {
+    flex-direction: column;
+    text-align: center;
+  }
+  #carefor .row h1 {
+    font-size: 40px;
+  }
+  #carefor .row h4 {
+    margin: 20px 0;
+  }
+}
 
 #welcome {
   padding: 40px 0;
@@ -60,6 +72,15 @@ body {
 #welcome .txtright {
   text-align: right;
 }
+@media (max-width: 992px) {
+  #welcome .textbox {
+    padding: 4px;
+    text-align: center !important;
+  }
+  #welcome .imgbox {
+    margin: 10px 0;
+  }
+}
 
 #aboutus {
   padding: 40px 0;
@@ -97,6 +118,18 @@ body {
 }
 #aboutus .textbox .imgbox {
   width: 450px;
+}
+@media (max-width: 992px) {
+  #aboutus .textbox {
+    padding: 6px;
+  }
+  #aboutus h4 {
+    margin: 10px 0;
+  }
+  #aboutus li {
+    display: flex;
+    align-items: center;
+  }
 }
 
 #ourtrainers {
@@ -243,6 +276,11 @@ body {
 }
 #questions .bigicon i {
   font-size: 30px;
+}
+@media (max-width: 992px) {
+  #questions .textbox {
+    padding: 0;
+  }
 }
 
 #doggerblog {
