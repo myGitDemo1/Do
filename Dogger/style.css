@@ -1,0 +1,316 @@
+body {
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+}
+
+.imgbox img {
+  width: 100%;
+}
+
+#carefor {
+  padding: 50px 0;
+}
+#carefor .textbox h1 {
+  font-size: 55px;
+  font-weight: 700;
+  margin: 0 0 10px;
+}
+#carefor .textbox h4 {
+  color: #a8a8a8;
+  font-size: 24px;
+}
+#carefor .imgbox {
+  width: 500px;
+}
+
+#welcome {
+  padding: 40px 0;
+}
+#welcome .textbox {
+  padding: 80px;
+}
+#welcome .textbox h1 {
+  font-weight: 700;
+  font-size: 34px;
+}
+#welcome .textbox h3 {
+  color: #868686;
+  margin: 20px 0 40px;
+  font-size: 20px;
+}
+#welcome .textbox .btn {
+  padding: 10px 30px;
+  border-radius: 20px;
+  background-color: #a7b59f;
+  color: white;
+}
+#welcome .textbox h2, #welcome .textbox h6 {
+  margin: 15px 0;
+}
+#welcome .textbox h2 {
+  font-size: 33px;
+}
+#welcome .textbox h6 {
+  font-size: 18px;
+}
+#welcome .wid {
+  width: 580px;
+  padding: 0;
+}
+#welcome .txtright {
+  text-align: right;
+}
+
+#aboutus {
+  padding: 40px 0;
+}
+#aboutus .textbox {
+  padding: 0 100px;
+}
+#aboutus .textbox h1 {
+  font-weight: 700;
+  font-size: 35px;
+}
+#aboutus .textbox h3, #aboutus .textbox p {
+  color: #a8a8a8;
+  font-size: 20px;
+  font-weight: 100;
+  margin: 20px 0 0 0;
+  line-height: 1.6;
+}
+#aboutus .textbox p {
+  color: #949494;
+  font-size: 18px;
+  line-height: 1.4;
+}
+#aboutus .textbox li {
+  display: flex;
+  padding: 20px 0 0 0;
+}
+#aboutus .textbox .icon {
+  color: #5e5656;
+  padding: 0 15px 0 0;
+}
+#aboutus .textbox h4 {
+  font-size: 18px;
+  color: #949494;
+}
+#aboutus .textbox .imgbox {
+  width: 450px;
+}
+
+#ourtrainers {
+  padding: 40px 0;
+}
+#ourtrainers h1 {
+  font-size: 36px;
+  font-weight: 700;
+  margin: 20px;
+}
+#ourtrainers h3, #ourtrainers h4 {
+  color: #a8a8a8;
+  font-size: 20px;
+  font-weight: 300;
+  padding: 10px 0 20px;
+}
+#ourtrainers .box {
+  margin: 0 5px;
+}
+#ourtrainers .box .textbox {
+  padding: 15px;
+}
+#ourtrainers .box h2 {
+  font-size: 25px;
+  font-weight: 300;
+  margin: 20px 0;
+}
+#ourtrainers .box ul {
+  display: flex;
+  flex-direction: row;
+}
+#ourtrainers .box ul li {
+  margin: 0 10px;
+  background-color: #d4cece;
+  border-radius: 50%;
+  padding: 20px;
+  height: 10px;
+  width: 10px;
+}
+#ourtrainers .box ul li .icon {
+  margin: -7px;
+}
+#ourtrainers .wid {
+  width: 580px;
+}
+
+#pricingtable {
+  padding: 40px 0;
+}
+#pricingtable .textbox {
+  width: 580px;
+  text-align: center;
+}
+#pricingtable .textbox h1 {
+  font-weight: 700;
+  font-size: 35px;
+}
+#pricingtable .textbox h5 {
+  font-weight: 200px;
+  font-size: 20px;
+  color: #000;
+  margin: 20px 0 50px;
+}
+#pricingtable .box {
+  width: 340px;
+  color: white;
+  background: #708f97;
+  text-align: center;
+  padding: 50px 30px;
+}
+#pricingtable .box h2 {
+  font-size: 25px;
+}
+#pricingtable .box h3 {
+  font-size: 30px;
+  margin: 20px 0 0;
+}
+#pricingtable .box li {
+  display: flex;
+  justify-content: center;
+  margin: 25px 0 0;
+}
+#pricingtable .box li h4 {
+  font-size: 18px;
+  margin: 0 0 0 10px;
+}
+#pricingtable .box .btn {
+  padding: 10px 35px;
+  margin: 30px 0;
+  border-radius: 30px;
+  background-color: #3a2d2d;
+  color: white;
+}
+#pricingtable .premium-box {
+  background-color: #2b383c;
+}
+#pricingtable .premium-box .btn {
+  background-color: #708f97;
+}
+
+#questions {
+  padding: 40px 0;
+}
+#questions .wid {
+  width: 580px;
+}
+#questions h1 {
+  font-size: 36px;
+  font-weight: 700;
+  margin: 10px 0;
+}
+#questions h3 {
+  font-size: 20px;
+  margin: 0 0 40px;
+  line-height: 1.4;
+}
+#questions .textbox {
+  padding: 0 70px;
+}
+#questions .textbox h2, #questions .textbox h4 {
+  font-size: 23px;
+  margin: 0 0 0 10px;
+}
+#questions .textbox .minibox {
+  margin: 20px 0 0 0;
+}
+#questions .textbox .minibox h2 {
+  margin: 0 0 0 10px;
+}
+#questions .textbox p {
+  font-size: 20px;
+  margin: 30px 0 0;
+  color: #949494;
+}
+#questions .textbox li {
+  margin: 30px 0 0;
+  display: flex;
+}
+#questions .icon {
+  color: #d4cece;
+}
+#questions .icon i {
+  font-size: 22px;
+}
+#questions .bigicon i {
+  font-size: 30px;
+}
+
+#doggerblog {
+  padding: 40px 0;
+}
+#doggerblog .box {
+  display: flex;
+}
+#doggerblog h1 {
+  font-size: 35px;
+  font-weight: 700;
+}
+#doggerblog h3 {
+  font-size: 20px;
+  margin: 30px 0 60px;
+}
+#doggerblog .textbox {
+  margin: 0 0 0 20px;
+}
+#doggerblog .textbox h2 {
+  font-size: 22px;
+}
+#doggerblog .textbox h4 {
+  color: #a7a7a7;
+  font-size: 18px;
+}
+#doggerblog .textbox p {
+  font-size: 18px;
+  color: #8f8686;
+}
+#doggerblog .textbox p, #doggerblog .textbox h4 {
+  margin: 20px 0 0;
+}
+#doggerblog .box {
+  margin: 25px 0 0 0;
+  height: 40vh;
+}
+
+.wid {
+  width: 580px;
+}
+
+#ourservices {
+  padding: 40px 0;
+}
+#ourservices .wid {
+  width: 580px;
+}
+#ourservices h1 {
+  font-size: 35px;
+  font-weight: 700;
+}
+#ourservices h3 {
+  font-size: 20px;
+  color: #c6c6c6;
+  margin: 30px 0;
+}
+#ourservices .textbox {
+  padding: 30px 40px;
+}
+#ourservices .textbox h2 {
+  font-size: 25px;
+  color: #757575;
+  margin: 20px 0 0;
+}
+#ourservices .textbox h3 {
+  margin: 30px 0 0;
+}
+#ourservices .icon {
+  font-size: 60px;
+}/*# sourceMappingURL=style.css.map */
