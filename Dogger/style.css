@@ -289,7 +289,7 @@ section {
   margin: 30px 0 60px;
 }
 #doggerblog .textbox {
-  margin: 0 0 0 20px;
+  margin-left: 10px;
 }
 #doggerblog .textbox h2 {
   font-size: 22px;
@@ -311,15 +311,6 @@ section {
 }
 #doggerblog .wid {
   width: 580px;
-}
-@media (max-width: 1400px) {
-  #doggerblog .box {
-    display: block;
-    flex-direction: column;
-  }
-  #doggerblog .box .textbox {
-    padding: 18px;
-  }
 }
 
 #ourservices .wid {
