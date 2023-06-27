@@ -326,6 +326,20 @@ body {
 #doggerblog .wid {
   width: 580px;
 }
+@media (max-width: 768px) {
+  #doggerblog .box {
+    margin-top: 140px;
+  }
+}
+@media (max-width: 1400px) {
+  #doggerblog .box {
+    display: block;
+    flex-direction: column;
+  }
+  #doggerblog .box .textbox {
+    padding: 14px;
+  }
+}
 
 #ourservices {
   padding: 40px 0;
