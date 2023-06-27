@@ -229,6 +229,11 @@ body {
 #pricingtable .premium-box .btn {
   background-color: #708f97;
 }
+@media (max-width: 768px) {
+  #pricingtable .box {
+    margin-top: 4px;
+  }
+}
 
 #questions {
   padding: 40px 0;
@@ -318,8 +323,7 @@ body {
   margin: 25px 0 0 0;
   height: 40vh;
 }
-
-.wid {
+#doggerblog .wid {
   width: 580px;
 }
 
